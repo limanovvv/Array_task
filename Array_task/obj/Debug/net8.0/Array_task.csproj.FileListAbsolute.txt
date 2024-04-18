@@ -1,0 +1,14 @@
+/Users/valero/RiderProjects/Array_task/Array_task/bin/Debug/net8.0/Array_task
+/Users/valero/RiderProjects/Array_task/Array_task/bin/Debug/net8.0/Array_task.deps.json
+/Users/valero/RiderProjects/Array_task/Array_task/bin/Debug/net8.0/Array_task.runtimeconfig.json
+/Users/valero/RiderProjects/Array_task/Array_task/bin/Debug/net8.0/Array_task.dll
+/Users/valero/RiderProjects/Array_task/Array_task/bin/Debug/net8.0/Array_task.pdb
+/Users/valero/RiderProjects/Array_task/Array_task/obj/Debug/net8.0/Array_task.GeneratedMSBuildEditorConfig.editorconfig
+/Users/valero/RiderProjects/Array_task/Array_task/obj/Debug/net8.0/Array_task.AssemblyInfoInputs.cache
+/Users/valero/RiderProjects/Array_task/Array_task/obj/Debug/net8.0/Array_task.AssemblyInfo.cs
+/Users/valero/RiderProjects/Array_task/Array_task/obj/Debug/net8.0/Array_task.csproj.CoreCompileInputs.cache
+/Users/valero/RiderProjects/Array_task/Array_task/obj/Debug/net8.0/Array_task.dll
+/Users/valero/RiderProjects/Array_task/Array_task/obj/Debug/net8.0/refint/Array_task.dll
+/Users/valero/RiderProjects/Array_task/Array_task/obj/Debug/net8.0/Array_task.pdb
+/Users/valero/RiderProjects/Array_task/Array_task/obj/Debug/net8.0/Array_task.genruntimeconfig.cache
+/Users/valero/RiderProjects/Array_task/Array_task/obj/Debug/net8.0/ref/Array_task.dll
