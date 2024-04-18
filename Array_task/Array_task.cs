@@ -1,8 +1,12 @@
-﻿
+﻿using static System.Console;
 
-using System.Runtime.InteropServices.Marshalling;
-using static System.Console;
 
+/// <summary>
+/// Массив размерностью 20
+/// заполняется случайными целыми числами от -10 до 10
+/// Найти максимальный отрицательный и минимальный положительный элементы массива
+/// Поменять их местами
+/// </summary>
 class ArrayTaskExecution
 {
     static void Main()
@@ -15,9 +19,9 @@ class ArrayTaskExecution
         {
             array[i] = random.Next(-10, 11);
         }
-        
+       
+        // вывод исходного массива
         WriteLine("исходный массив:");
-
         foreach (var arr in array)
         {
             Write($"{arr} ");
@@ -28,6 +32,7 @@ class ArrayTaskExecution
         int maxNegative = -11;
         int minPositive = 11;
 
+        // логика поиска мин. отриц. и макс. полож.
         for (int i = 0; i < array.Length; i++)
         {
             if (array[i] < 0 && array[i] > maxNegative)
@@ -50,8 +55,8 @@ class ArrayTaskExecution
         // меняем местами элементы
         Swap(array, maxNegIndex, minPosIndex);
         
+        // вывод измененного массива
         WriteLine("Измененный массив: ");
-        
         foreach (var arr in array)
         {
             Write($"{arr} ");
@@ -63,6 +68,12 @@ class ArrayTaskExecution
 
     }
 
+    /// <summary>
+    /// метод перестановки элементов массива по их индексам
+    /// </summary>
+    /// <param name="arr"> массив </param>
+    /// <param name="first_index"> первый индекс </param>
+    /// <param name="second_index"> второй индекс </param>
     public static void Swap(int[] arr, int first_index, int second_index)
     {
         int temp = arr[first_index];
